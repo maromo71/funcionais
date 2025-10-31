@@ -1,9 +1,5 @@
 package com.example;
 
-@FunctionalInterface
-interface OperacaoMatematica {
-    int calcular(int a, int b);
-}
 public class Exemplo05 {
     public static void main(String[] args) {
        OperacaoMatematica soma = (a, b)-> {
